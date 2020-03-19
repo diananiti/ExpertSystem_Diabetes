@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type ="text/css" href="new.css">
+</head>
+
+    <body>
+        <!DOCTYPE html>
+<html>
+<style>
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+</style>
+        <h2>
+           Medical Risk Estimation for Dianbetes
+        </h2>
+        <div>
+        <form id="Medical-Form"action="http://localhost:3000/res/api/" method="get">
+            <label for="age">Insert you age</label>
+            <input type ="text" name="age">     
+<label for="glycemie">Insert your Glycemie index</label>
+<input type ="text" name="glycemie">
+
+<label for="shakiness">Do you have shakiness symtoms?</label> 
+        <select name="shakiness" id="shakiness"> 
+            <option value="True">True</option> 
+            <option value="False">False</option> 
+           
+        </select> 
+
+    
+        <label for="hunger">Are you constantly Hungry?</label> 
+        <select name="hunger" id="hunger"> 
+            <option value="True">True</option> 
+            <option value="False">False</option> 
+           
+        </select> 
+        <label for="sweating">Are you sweating often?</label> 
+        <select name="sweating" id="sweating"> 
+            <option value="True">True</option> 
+            <option value="False">False</option> 
+           
+        </select> 
+        <label for="headach">Do you encounter headach often?</label> 
+        <select name="headach" id="headach"> 
+            <option value="True">True</option> 
+            <option value="False">False</option> 
+           
+        </select> 
+        <label for="diabetic_parents">Do you have diabetic parents?</label> 
+        <select name="diabetic_parents" id="diabetic_parents"> 
+            <option value="True">True</option> 
+            <option value="False">False</option> 
+           
+        </select> 
+        <label for="pale">Is your complexion pale?</label> 
+        <select name="pale" id="pale"> 
+            <option value="True">True</option> 
+            <option value="False">False</option> 
+           
+        </select> 
+        <label for="urination">Frequesnt urination?</label> 
+        <select name="urination" id="urination"> 
+            <option value="True">True</option> 
+            <option value="False">False</option> 
+           
+        </select> 
+        <label for="thirst">Feeling most of the time thirsty?</label> 
+        <select name="thirst" id="thirst"> 
+            <option value="True">True</option> 
+            <option value="False">False</option> 
+           
+        </select> 
+        <label for="blurred_vision">Does your vision become blurred sometimes?</label> 
+        <select name="blurred_vision" id="blurred_vision"> 
+            <option value="True">True</option> 
+            <option value="False">False</option> 
+           
+        </select> 
+        <label for="dry_mouth">Are you having a dry mouth sensation?</label> 
+        <select name="dry_mouth" id="dry_mouth"> 
+            <option value="True">True</option> 
+            <option value="False">False</option> 
+           
+        </select> 
+        <label for="smelling_breath">Smelling breath?</label> 
+        <select name="smelling_breath" id="smelling_breath"> 
+            <option value="True">True</option> 
+            <option value="False">False</option> 
+           
+        </select> 
+        <label for="shortness_of_breath">Do you feel hard to breathe ?</label> 
+        <select name="shortness_of_breath" id="shortness_of_breath"> 
+            <option value="True">True</option> 
+            <option value="False">False</option> 
+           
+        </select> 
+        <input type="submit" value ="submit"/>
+           
+        </form>
+        </div>
+    </body>
+</html>
